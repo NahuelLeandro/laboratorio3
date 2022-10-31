@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1300px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    /*display: flex;
+    flex-wrap: wrap;*/
+}
+
+
+
+
+
+header{
+    margin-top: 2% ;
+    margin-right: 0%;
+    margin-bottom: 2%;
+    margin-left: 0%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+}
+a.icon {
+    display: none;
+}
+nav ul {
+    margin-top: 3%;
+}
+
+nav ul li {
+   display: inline-block;
+}
+nav ul li a {
+   font-size:  1.2rem ;
+   padding-right: 2rem;
+   text-transform: uppercase ;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.principal{
+    display: flex;
+    max-width: 1170px ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.principal div {
+    align-self: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem; 
+    font-family: 'Bangers', cursive;
+}
+p{
+    text-align: center;
+    align-self: center;
+    font-size: 1.5rem;
+    margin-bottom: 1%;
+}
+
+.secundario{
+    margin-top: 5%;
+    display: flex;
+    max-width: 1170px ;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.secundario div{
+    width: 33%;
+    padding: 2%;
+}
+.secundario div img{
+    width: 100%;
+    margin-bottom: 2%;
+}
+.secundario h4{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    max-width: 1170px ;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    
+}
+footer div {
+    width: 33%;
+}
+
+footer div img{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 100%;
+    max-width: 4.5rem;
+}
+footer #redes{
+    display: flex;
+    justify-content: flex-end;
+}
+footer #redes img{
+    max-width: 2.5rem;
+}
+footer div p{
+    font-size: 1rem;
+}
+
+
+
+@media screen and ( max-width: 576px ) {
+
+body{
+    display: flex;
+    max-width: 576px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    margin-top: 4% ;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 576px;
+}
+header div a {
+    align-items: flex-end;
+}
+
+
+
+
+a.icon{
+    margin-top: 4%;
+    float: right;
+    display: block;
+}
+nav{
+    width: 100% ;
+}
+ul{
+    display: none;
+}
+nav.responsive ul{
+    display: block;
+    margin-right: 14%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+nav.responsive ul li{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+
+
+.principal{
+    display: flex;
+    max-width: 576px ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    /*align-items: center;*/
+}
+.principal img{
+    max-width: 518.4px ;
+}
+
+
+.secundario{
+    margin-top: 5%;
+    display: flex;
+    max-width: 576px ;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.secundario div{
+    width: 75%;
+    padding: 2%;
+    align-self: center;
+}
+.secundario div img{
+    width: 100%;
+    margin-bottom: 2%;
+}
+.secundario div h4 {
+    text-align: center;
+}
+
+#temporadas .temp{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    max-width: 100%;
+    justify-content: center;
+}
+
+#temporadas .temp div{
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    max-width: 100%;
+}
+#temporadas .temp div img{
+    max-width: 100%;
+    margin-bottom: 2%;
+}
+footer #redes img{
+    max-width: 2rem;
+}
+
+.ulPersonajes{
+    display: block;
+
+ 
+}
+
+}
+
+#personajes article{
+    margin-bottom: 5%;
+}
+
+#personajes h2{
+    text-align: center;
+    font-size: 3rem; 
+    font-family: 'Bangers', cursive;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#personajes .principal img{
+    width: 1170px;
+}
+
+#personajes .principal h3{
+    text-align: center;
+    font-size: 2rem; 
+    font-family: 'Bangers', cursive;
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+}
+#personajes .principal nav a{
+
+    display: flex;
+    /*flex-direction: row;
+    flex-wrap: wrap;*/
+    justify-content: center  ;
+    font-size: 1.2rem; 
+    margin-top: 0%;
+}
+#personajes .principal nav ul{
+    margin-top: 0%;
+}
+
+.temp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    justify-content: space-between;
+}
+#temp2{
+    flex-direction: row-reverse;
+}
+
+.temp div{
+    align-items: center;
+    align-self: center;
+    width: 45%;
+}
+
+#temporadas h2 {
+    text-align: center;
+    font-size: 3rem; 
+    font-family: 'Bangers', cursive;
+    margin-top: 3%;
+}
+#temporadas{
+    max-width: 1170px;
+}
+
+
+#contacto header{
+    margin-bottom: 10%;
+}
+
+#contacto footer{
+    margin-top: 10%;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 3rem; 
+    font-family: 'Bangers', cursive;
+}
+
+#contacto .principal div form{
+    display: flex;
+    flex-direction: column;
+}
+
