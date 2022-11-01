@@ -326,3 +326,16 @@ h2{
 #galeria footer{
     margin-top: 10%;
 }
+
+#galeria .galeriaSection {
+    display: flex;
+    width: 100% ;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#galeria .galeriaSection div{
+    margin-left: 10%;
+}
+#galeria .example-image{
+    width: 20%;
+}
