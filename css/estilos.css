@@ -308,16 +308,6 @@ footer #redes img{
     max-width: 1170px;
 }
 
-
-#contacto header{
-    margin-bottom: 10%;
-}
-
-#contacto footer{
-    margin-top: 10%;
-}
-
-
 h2{
     text-align: center;
     font-size: 3rem; 
@@ -329,3 +319,10 @@ h2{
     flex-direction: column;
 }
 
+#galeria header{
+    margin-bottom: 10%;
+}
+
+#galeria footer{
+    margin-top: 10%;
+}
