@@ -237,10 +237,11 @@ footer #redes img{
 
 .ulPersonajes{
     display: block;
-
- 
 }
-
+.ulPersonajes a{
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
 
 }
 
